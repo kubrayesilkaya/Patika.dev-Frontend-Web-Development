@@ -1,0 +1,138 @@
+
+nav {
+    float: right;
+    height: 48px;
+    position: fixed;
+    right: 7px;
+    top: 2px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    padding-right: 10px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    padding-left: 5px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+#apps {
+    width: 16px;
+    padding-left: 13px;
+    padding-right: 6px;
+}
+
+#profil-picture {
+    border-radius: 50%;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    border: 0;
+}
+
+main .main-part {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 100px;
+}
+
+main .main-part #google-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-part {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    margin-top: 25px;
+}
+
+.input {
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    flex: 100%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+small-img {
+    padding-top: -20px;
+}
+
+
+footer {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: arial,sans-serif;
+    margin-top: 330px;
+    background-color: #F2F2F2;
+}
+
+.footer-2 {
+    margin-left: 1210px;
+    background-color: #F2F2F2;
+}
+
+.footer-2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    white-space: nowrap;
+    padding-left: 30px;
+
+}
